@@ -52,55 +52,39 @@ li a:hover:not(.active) {
 }
 </style>
   </head>
-  <body>
-    <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a class="active" href="portfolio.html">Portfolio</a></li>
-        <li style="float:right"><a class="active" href="about.html">About Me</a></li>
-    </ul>
-    <style>
-.borderexample
-{
-border-style:solid;
-border-color:#fcbaba;
-padding-left: 60px;
-padding-right: 20px;
-padding-top: 20px;
-padding-bottom: 20px;
-background-color: white;
-border-radius: 25px;
-padding: 80px;
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
 }
-.bordertext
-{
-border-style:solid;
-border-color:#fcbaba;
-padding-left: 40px;
-padding-right: 20px;
-padding-top: 50;
-padding-bottom: 50;
-background-color: white;
-padding: 60px;
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-    </style>
-    <center><h1 class="borderexample">Holly Potter</h1></center>
-    <center><p class="bordertext">Some of my projects below...
-      <p>Assignment 2</p>
-        <p><a href="https://vizhub.com/hollyjpotter/187eb09333fe429e9bc810fe9aafde20?edit=files&file=sketch.js">Bar Chart</a></p>
-        <p><a href="https://vizhub.com/hollyjpotter/6b5d2b9735ec475fa59ee8eada515b7b">Dot Plot</a></p>
-        </p></center>
-<input type="image" src="vizHubLogo.png" width="100" height="50"
-  onclick="window.open"("https://vizhub.com/hollyjpotter/187eb09333fe429e9bc810fe9aafde20?edit=files&file=sketch.js")/>
-<input type="image" src="vizHubLogo.png" width="100" height="50"
-    onclick="window.open"('https://vizhub.com/hollyjpotter/6b5d2b9735ec475fa59ee8eada515b7b')/>
 
+img {
+  border-radius: 5px 5px 0 0;
+}
 
+.container {
+  padding: 2px 16px;
+}
+</style>
+</head>
+<body>
 
+<h2>Round Card</h2>
 
-<!--<script>
-  alert("New Place Added");
-  /* <a href="https://www.instagram.com/foodie/?hl=e"> Go to Instagram</a?>
-</script> -->
-  </body>
+<div class="card">
+  <img src="img_avatar2.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Jane Doe</b></h4> 
+    <p>Interior Designer</p> 
+  </div>
+</div>
+
+</body>
 </html>
